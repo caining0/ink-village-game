@@ -1,0 +1,38 @@
+Qingheng head and hair adaptation
+
+Original work: VRM1_Constraint_Twist_Sample, v1.0.1
+Copyright (c) 2022 pixiv Inc.
+Author: pixiv Inc.
+License: VRM Public License 1.0
+Full license: VRM-Public-License-1.0-en.pdf (in this directory)
+License URL: https://vrm.dev/licenses/1.0/
+
+Official source:
+https://github.com/pixiv/three-vrm/blob/5a3242b66124386c32b085c6693d9059040e72e5/packages/three-vrm/examples/models/VRM1_Constraint_Twist_Sample.vrm
+Source SHA256:
+12c2b97e95e700783a6a550dc0eee2d7880aeedccef9ae67bc4c5a2f0f2631a2
+
+Permissions from the model's original VRMC_vrm metadata:
+avatarPermission: everyone
+commercialUsage: corporation
+creditNotation: unnecessary
+allowRedistribution: true
+modification: allowModificationRedistribution
+allowExcessivelyViolentUsage: true
+allowExcessivelySexualUsage: true
+allowPoliticalOrReligiousUsage: true
+allowAntisocialOrHateUsage: false
+
+Changes made for Yunqi, 2026-11-07:
+- Extracted the head and hair meshes; removed original clothing and the rest of the body.
+- Converted the geometry to a head-local attachment for Yunqi's animation rig.
+- Retained authored face textures, eye/mouth geometry, UVs, blink and smile morphs.
+- Changed hair colour and rendering materials at runtime.
+- Combined with Yunqi's separately authored/adapted Chinese garments, ornaments,
+  straight sword and animation system. The VRM license covers the extracted asset,
+  and does not change the separate licenses of the surrounding project.
+
+Rebuild: node tools/build-heroine-head.mjs /path/to/VRM1_Constraint_Twist_Sample.vrm
+
+The original license and permission metadata are also retained inside qingheng-head.glb.
+This is an adapted candidate character, not a reconstruction of the user's reference.

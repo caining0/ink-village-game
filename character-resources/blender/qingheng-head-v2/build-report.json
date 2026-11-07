@@ -1,0 +1,17 @@
+{
+  "scene": "Qingheng_Head_Study_v2",
+  "file": "/Users/cnn/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_pyke7g61k0h521_1066/msg/file/2026-11/ink-village/character-resources/blender/qingheng-head-v2/qingheng-head-v2.blend",
+  "mesh_objects": 79,
+  "curve_objects": 275,
+  "original_scene_objects": [
+    "Cube",
+    "Light",
+    "Camera"
+  ],
+  "cameras": {
+    "Front": "QH2_Camera_Front",
+    "ThreeQuarter": "QH2_Camera_ThreeQuarter",
+    "Side": "QH2_Camera_Side"
+  },
+  "status": "Draft geometry saved; renders and browser export pending"
+}

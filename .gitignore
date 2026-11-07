@@ -1,0 +1,16 @@
+.DS_Store
+/reference/
+/vendor/
+*.tar.gz
+.openai/local*
+
+# Local hosting identity, credentials and generated caches
+/.openai/
+.env
+.env.*
+!.env.example
+node_modules/
+__pycache__/
+*.py[cod]
+*.log
+*.blend[0-9]

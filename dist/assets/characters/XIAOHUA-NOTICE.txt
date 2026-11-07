@@ -1,0 +1,38 @@
+Xiaohua — complete free character candidate
+
+Original creator: bettycolors
+Original work: Xiaohua
+Original source and attribution:
+https://sketchfab.com/3d-models/c7075dc4ef584b47b82b1618bf2043f0
+
+License: Creative Commons Attribution 4.0 International (CC BY 4.0)
+https://creativecommons.org/licenses/by/4.0/
+https://creativecommons.org/licenses/by/4.0/legalcode
+The original creator's live Sketchfab API record identifies this license and says:
+"Author must be credited. Commercial use is allowed."
+https://api.sketchfab.com/v3/models/c7075dc4ef584b47b82b1618bf2043f0
+
+Downloaded from the publicly redistributed Objaverse GLB, matched by the
+original Sketchfab model UID (not a similarly named model by another uploader):
+https://huggingface.co/datasets/allenai/objaverse/resolve/main/glbs/000-079/c7075dc4ef584b47b82b1618bf2043f0.glb
+Index: https://huggingface.co/datasets/allenai/objaverse/resolve/main/object-paths.json.gz
+
+Local file: xiaohua.glb
+Size: 9,682,800 bytes
+SHA256: 89f593f8cbd149a971ed98787b7209693e36fc80dcb2d99ca846ae05bddfa34a
+
+The downloaded GLB is preserved without modification. Yunqi's free-model
+preview normalizes its size and position, lights it, and offers optional
+runtime jade recolouring of the authored fabric texture. The optional colour
+adaptation is by this project. Original geometry, UVs, skin/face texture and
+hair remain the creator's work; no original authorship is claimed here.
+
+Actual inspected GLB: 6 meshes, 3 materials, 2 embedded PNGs,
+282,516 triangles. It has no skins, joint weights or animation clips.
+The source Blender download is separately described as rigged, but that
+claim is not carried over to this GLB. It needs rigging before gameplay use.
+
+This asset is currently a separate free-model review, not the game's active
+character and not an accurate reconstruction of the user's reference.
+Attribution must accompany any further redistribution of the original or
+adapted work. No endorsement by the original creator is implied.

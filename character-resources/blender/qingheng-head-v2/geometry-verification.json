@@ -1,0 +1,48 @@
+{
+  "original_objects": [
+    "Cube",
+    "Light",
+    "Camera"
+  ],
+  "rays": {
+    "left_pupil": {
+      "hit": true,
+      "object": "QH2_Pupil_-1",
+      "point": [
+        -0.21199999749660492,
+        -0.42315673828125,
+        2.1070001125335693
+      ]
+    },
+    "right_pupil": {
+      "hit": true,
+      "object": "QH2_Pupil_1",
+      "point": [
+        0.21199999749660492,
+        -0.42315673828125,
+        2.1070001125335693
+      ]
+    },
+    "nose_tip": {
+      "hit": true,
+      "object": "QH2_Face_continuous_sculpt",
+      "point": [
+        0.0,
+        -0.5919327735900879,
+        1.9220000505447388
+      ]
+    },
+    "mouth": {
+      "hit": true,
+      "object": "QH2_Mouth_resting_seam",
+      "point": [
+        0.0,
+        -0.45604991912841797,
+        1.7369999885559082
+      ]
+    }
+  },
+  "face_vertices": 18080,
+  "saved_file": "/Users/cnn/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_pyke7g61k0h521_1066/msg/file/2026-11/ink-village/character-resources/blender/qingheng-head-v2/qingheng-head-v2.blend",
+  "scene": "Qingheng_Head_Study_v2"
+}

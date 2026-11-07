@@ -1,0 +1,35 @@
+云栖 · 山门初醒 — 当前开发版本
+
+启动：
+1. 解压整个文件夹，不要直接双击 dist/index.html。
+2. Mac 双击 start.command，保持终端窗口打开。
+3. 在 Chrome 打开 http://127.0.0.1:8765/
+4. 如果系统限制双击脚本，可在项目目录手动执行：
+   python3 -m http.server 8765 --bind 127.0.0.1 --directory dist
+5. 若端口已占用，可把 8765 改为 8766，再打开对应地址。
+依赖：运行游戏仅需 Python 3 和支持 WebGL 的浏览器，无需 npm 安装。
+
+操作：
+WASD/方向键移动，Shift奔跑，J轻击三连，K重击，Space闪避。
+F锁敌，Q绝技，E对话/敲钟，Esc暂停。
+V起飞/滑翔，空中Space上升，C下降，Shift疾行。
+鼠标拖动环顾、滚轮缩放。触屏提供按钮。
+
+内容：
+dist/                     游戏及本地 Three.js/Cannon.js/角色依赖
+tests/                    回归测试（node --test tests/*.test.mjs）
+character-resources/      用户角色参考、四视图、ComfyUI API/UI工作流和模型清单
+tools/                    本次资源与工作流辅助脚本；本机路径需按新机器调整
+docs/                     设计、计划
+agent.md、AGENTS.md        项目工作约定及实际使用的 skills
+README.md                 技术与许可说明
+
+当前限制：
+这是用户要求保存的当前开发快照，不是最终美术成品。
+女主脸部、身材与参考角色卡尚未完成精确还原，角色美术未获用户认可。
+当前墨线几何脸为实验实现，写实投影脸贴图保留为实验文件但未用于运行材质。
+步态已改为独立小步行走；最后一轮人物脸部、完整动作和通关未完成视觉验收。
+图生3D流程未得到已完成的合格模型，包内不含生成成功的女主GLB。
+ComfyUI软件、Python环境和约15GB模型权重不在本压缩包内；游戏启动不依赖ComfyUI。
+reference/原始参考视频、上游稀疏检出和Git历史未收入此交付包。
+第三方许可保留在 dist/THIRD_PARTY_NOTICES.txt 和对应依赖目录。

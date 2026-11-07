@@ -1,0 +1,21 @@
+{
+  "blend": "/Users/cnn/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_pyke7g61k0h521_1066/msg/file/2026-11/ink-village/character-resources/blender/qingheng-head-v2/qingheng-head-v2.blend",
+  "glb": "/Users/cnn/Library/Containers/com.tencent.xinWeChat/Data/Documents/xwechat_files/wxid_pyke7g61k0h521_1066/msg/file/2026-11/ink-village/dist/assets/characters/qingheng-head-study-v2.glb",
+  "glb_bytes": 4701080,
+  "export_meshes": 18,
+  "triangles": 198164,
+  "images": [
+    "front.png",
+    "three-quarter.png",
+    "side.png"
+  ],
+  "render_engine": "BLENDER_EEVEE",
+  "original_objects": [
+    "Cube",
+    "Light",
+    "Camera"
+  ],
+  "visual_acceptance": "Pending user review; not asserted by geometry or loading checks",
+  "rigged": false,
+  "animations": 0
+}

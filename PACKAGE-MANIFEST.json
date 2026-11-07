@@ -1,0 +1,532 @@
+[
+  {
+    "path": "dist/THIRD_PARTY_NOTICES.txt",
+    "bytes": 1787,
+    "sha256": "99e2300149ed58fcb14ec64a6eed3cefd36268ffa99dc58fdf58cb9ef357e6ab"
+  },
+  {
+    "path": "dist/animation.mjs",
+    "bytes": 2513,
+    "sha256": "ea6ea0c24299842bbd737f414ee169265ea1a9fbfabd3c85d5060356a4f6a14d"
+  },
+  {
+    "path": "dist/art.js",
+    "bytes": 6914,
+    "sha256": "cc481f70ad9afac1a72172e05c1a42e57e3e18062ebdd28ecc931d2aa955bcd0"
+  },
+  {
+    "path": "dist/assets/ceramic-roof.jpg",
+    "bytes": 547031,
+    "sha256": "d16264943b3a052a6b91f4ad7c9c1f37c09f2a9e9c503bdb3477f4705c03ff8c"
+  },
+  {
+    "path": "dist/assets/heroine-face-v2.png",
+    "bytes": 2015901,
+    "sha256": "ddbbf89c3f7090c27022d6cae5f0a09fe2c0b621f202276912bd6b6edc6e279a"
+  },
+  {
+    "path": "dist/assets/ink-limestone.png",
+    "bytes": 3814677,
+    "sha256": "74e3bfafab406915da03444098a12fc53d5dea6d0e60723df0b5743224387d2b"
+  },
+  {
+    "path": "dist/assets/ink-panorama.png",
+    "bytes": 2608373,
+    "sha256": "8a22573d3ec32c33c03d13103d38ef6cb3423037a4139bdacf68fa0cd22f5c35"
+  },
+  {
+    "path": "dist/character-preview.js",
+    "bytes": 2377,
+    "sha256": "c86853eeb31d54569f157827f0eca60370473c04844f762571957e9fc2d957db"
+  },
+  {
+    "path": "dist/character.html",
+    "bytes": 1505,
+    "sha256": "f40ab35e4df7e49e976a01daf39d72e78f447f8266b99b58b2f152b962243b4c"
+  },
+  {
+    "path": "dist/combat.mjs",
+    "bytes": 1227,
+    "sha256": "144a4029c045c5214c5c4d885a652957f364b79efc70a7ee7a09bc717470d8bc"
+  },
+  {
+    "path": "dist/credits.html",
+    "bytes": 1616,
+    "sha256": "66b288900302621c1ddb186a9e92f0f5b5abd03d121bad13a4f1e6691676e768"
+  },
+  {
+    "path": "dist/fighter.js",
+    "bytes": 2400,
+    "sha256": "f365680608fa512a0aab1cecce50def5293c5da02f7d0f334c51d66ca25e916c"
+  },
+  {
+    "path": "dist/index.html",
+    "bytes": 5154,
+    "sha256": "57aa9c7b9d950fa31d338beee4b9a2c5a83ae46d559b013791f64bdd2d3c1658"
+  },
+  {
+    "path": "dist/lifecycle.mjs",
+    "bytes": 394,
+    "sha256": "bfd9907b7a752d40e5629d849d08cf5334de1e0bf8efa002512afae5614340b6"
+  },
+  {
+    "path": "dist/main.js",
+    "bytes": 26233,
+    "sha256": "88c416d5a2aafe67bf666edb71ee51c7fd9cd6516aa937699f6d8d9b4f3a44ff"
+  },
+  {
+    "path": "dist/qinggong.mjs",
+    "bytes": 989,
+    "sha256": "e12c32eeb3d57e2798718e96b60cf6e93a90ed778dd438ed282ea0a4e177de9c"
+  },
+  {
+    "path": "dist/scene.js",
+    "bytes": 17806,
+    "sha256": "e6f8eb5a7afa2720a95d7f312f35db8aa528dec61cc818cc0bb61d45c93108e7"
+  },
+  {
+    "path": "dist/style.css",
+    "bytes": 9386,
+    "sha256": "2405140e628c1b6397b1f34c4299c6502e4deec543b7b2c58074c0be676b172e"
+  },
+  {
+    "path": "dist/vendor/cannon.min.js",
+    "bytes": 132199,
+    "sha256": "54e8b646e97daef2cff3c7af99fcd0fe768dc74e7d46498f68a869c7dc9dc906"
+  },
+  {
+    "path": "dist/vendor/longwind/LICENSE",
+    "bytes": 1347,
+    "sha256": "6c5bed998c0cb6a935570f16a44d9dedd6014d8dfd025cd924bdf96472920ca1"
+  },
+  {
+    "path": "dist/vendor/longwind/character/animator.js",
+    "bytes": 26163,
+    "sha256": "efb266ad1e7a96a94e4e6592b2e01a61e00c697253327a7c52a661b962ef6796"
+  },
+  {
+    "path": "dist/vendor/longwind/character/bakedAnim.js",
+    "bytes": 12348,
+    "sha256": "af06e1e4a6f4a7d90d161f53d3adec31bd70508cb39bcb5ff1071de1a57a16ee"
+  },
+  {
+    "path": "dist/vendor/longwind/character/character.js",
+    "bytes": 31623,
+    "sha256": "f1b98ed9c84347a99c92debd11f037e1299110577833fe419b605ce3abcafe61"
+  },
+  {
+    "path": "dist/vendor/longwind/character/charmat.js",
+    "bytes": 1076,
+    "sha256": "055b362129930e63a6d9511529667a922cca63c38f2781be6199c300964fc1fb"
+  },
+  {
+    "path": "dist/vendor/longwind/character/clips/attacks.js",
+    "bytes": 34374,
+    "sha256": "a24accc931e6e1f4b843906c177aa283ec47d9c6027c6e175e979557d630555b"
+  },
+  {
+    "path": "dist/vendor/longwind/character/clips/citizen.js",
+    "bytes": 2046,
+    "sha256": "fbfb42ed106ed16c5f15d8cf4e004f7a6daf0b635bc6c9da98c1c237bbe2d377"
+  },
+  {
+    "path": "dist/vendor/longwind/character/clips/defense.js",
+    "bytes": 15084,
+    "sha256": "8c2dd838aa4d2209f61909da4888019a23bb7caf6b433ada139eae705caec72e"
+  },
+  {
+    "path": "dist/vendor/longwind/character/clips/enemy.js",
+    "bytes": 11348,
+    "sha256": "880ffcff776d65b12f3741955e6a06614d1d68f0d296814142c8ab3ad1a051d6"
+  },
+  {
+    "path": "dist/vendor/longwind/character/clips/enemy2.js",
+    "bytes": 28294,
+    "sha256": "d2440abc49c6c4b1759c3212abb87ce3e49ab9ab34c6146f37d62743c49b4a9d"
+  },
+  {
+    "path": "dist/vendor/longwind/character/clips/index.js",
+    "bytes": 3152,
+    "sha256": "884c94e4aec64d3f787ebc25daf32cc8ebc4a4baeffe18318820846205a45ca1"
+  },
+  {
+    "path": "dist/vendor/longwind/character/clips/loco-clips.js",
+    "bytes": 1085,
+    "sha256": "3d6c4df89d0b24cf19903692d9c5abacec120dae14e35e2ae38a0b4604e8520a"
+  },
+  {
+    "path": "dist/vendor/longwind/character/clips/locomotion.js",
+    "bytes": 22646,
+    "sha256": "b4a420af9a40bc018767102aa14de989936e442d62e60509eff18311753d57c0"
+  },
+  {
+    "path": "dist/vendor/longwind/character/clips/misc.js",
+    "bytes": 9109,
+    "sha256": "2b51de923a6156c78365e63611b2836d43e4f28e71cee8a9a389d2c89c82603b"
+  },
+  {
+    "path": "dist/vendor/longwind/character/clips/poses.js",
+    "bytes": 16346,
+    "sha256": "d1a2259120fac4a94416827da08b2b3b3b6948c1b4693f01c76b1799835c323e"
+  },
+  {
+    "path": "dist/vendor/longwind/character/clips/reactions.js",
+    "bytes": 21577,
+    "sha256": "0199fa0318ab3663d82c71f9e1581073fa90bf94975d670f37271396f6a47822"
+  },
+  {
+    "path": "dist/vendor/longwind/character/clips/track.js",
+    "bytes": 14616,
+    "sha256": "979cb30ad7b114bdfe4e64036fc830b473c6aada25ac21acfd9bafd07106589b"
+  },
+  {
+    "path": "dist/vendor/longwind/character/cloth.js",
+    "bytes": 18250,
+    "sha256": "6822464d4d990829cd7cc6e917cc0cad4b8c028f9dd284a1f8bcb4f3440e7e78"
+  },
+  {
+    "path": "dist/vendor/longwind/character/crowdMocap.js",
+    "bytes": 4232,
+    "sha256": "25558087084e02f8f2b792efb6282c978e9010b11eb454635f8152ce2a416b38"
+  },
+  {
+    "path": "dist/vendor/longwind/character/heroine.js",
+    "bytes": 7779,
+    "sha256": "e8f384bce1ef4ba35e20242a579d2a56effbf8b1ba4b8ff502bf4298abd99ff9"
+  },
+  {
+    "path": "dist/vendor/longwind/character/humanoid.js",
+    "bytes": 35895,
+    "sha256": "0a9a7cdd2b13e68d5751c9bc5401e4dfbaacff31ab3a76d75d744de9a6127238"
+  },
+  {
+    "path": "dist/vendor/longwind/character/humanoidAssembly.js",
+    "bytes": 6339,
+    "sha256": "14eb71bb41d1267fa5c34b9b7bf096569d750d199a4338f556c2ffb13c42562b"
+  },
+  {
+    "path": "dist/vendor/longwind/character/humanoidBuild.js",
+    "bytes": 5333,
+    "sha256": "e7d6393e92cbd7e8d1f742cf70a1ad287b2f637cf585a95b8cec9fc4876488df"
+  },
+  {
+    "path": "dist/vendor/longwind/character/humanoidRig.js",
+    "bytes": 2571,
+    "sha256": "783b4224f5dcbfd89519ec5820e99658ae4193bb49a3b2ca16ff262ae05f22e6"
+  },
+  {
+    "path": "dist/vendor/longwind/character/humanoidSdf.js",
+    "bytes": 38900,
+    "sha256": "576418e88d550d23b3808741fd4a8c06c64be58996829f5b3a536e0ff4c8feae"
+  },
+  {
+    "path": "dist/vendor/longwind/character/humanoidWorker.js",
+    "bytes": 626,
+    "sha256": "cf34002fff8a5095016373a30b2d09cbe079c6c762f8cc0a103ded38998fe2b5"
+  },
+  {
+    "path": "dist/vendor/longwind/character/ik.js",
+    "bytes": 25684,
+    "sha256": "305b49ed5864df6471f2bcb7ab55429de504ca177580f31e2a3f4f688a441d18"
+  },
+  {
+    "path": "dist/vendor/longwind/character/ikfeet.js",
+    "bytes": 8946,
+    "sha256": "c497976ee3ccf6200134619d83b1c3b0632d9ab46860c6ce8080d35ac1995ce8"
+  },
+  {
+    "path": "dist/vendor/longwind/character/mixamoAnims.js",
+    "bytes": 7497,
+    "sha256": "73dddeb8576d548184296461abc4ba4590d2df7419ec2a2dac35b2ccbb1b91a2"
+  },
+  {
+    "path": "dist/vendor/longwind/character/mocap/jian-demo.js",
+    "bytes": 136922,
+    "sha256": "369abd41cdb8c0675c2296bab620a5b9623ccb23a8020ef99ac7f8d4dc133da1"
+  },
+  {
+    "path": "dist/vendor/longwind/character/modelSkin.js",
+    "bytes": 45402,
+    "sha256": "2454c08428a57802595960a49ad3fe721c644e221794956b40c70c637c1ad769"
+  },
+  {
+    "path": "dist/vendor/longwind/character/outfits.js",
+    "bytes": 44337,
+    "sha256": "438e70dce8bba1b824bce5721bbffedba96686346ae543d269fb493b252f6d2b"
+  },
+  {
+    "path": "dist/vendor/longwind/character/outfitsHead.js",
+    "bytes": 18448,
+    "sha256": "bb1de4aeaf69128e4be9c37581947c521d174c984bca640055c39b9f86b2528c"
+  },
+  {
+    "path": "dist/vendor/longwind/character/outfitsKit.js",
+    "bytes": 24615,
+    "sha256": "0cd81b6a71ee982d21495b6d31a3b89dd0008c613dbbe690601204e04bbdee0a"
+  },
+  {
+    "path": "dist/vendor/longwind/character/outfitsRecipes.js",
+    "bytes": 21199,
+    "sha256": "ed7e33194a8dc6a65953b9feeff8f991d7a5acff34a2d5b6e8e3192348c6762c"
+  },
+  {
+    "path": "dist/vendor/longwind/character/skeleton.js",
+    "bytes": 5496,
+    "sha256": "060578e47fbcf9c14eb3dc03f9ada3d07c8b7fd8aef1e8253036b6e365a39c96"
+  },
+  {
+    "path": "dist/vendor/longwind/character/sword.js",
+    "bytes": 28068,
+    "sha256": "9d1a108e749cf9423ecc50b31ae985435ed7f011564aa48895f0efa145dbfa12"
+  },
+  {
+    "path": "dist/vendor/longwind/core/globals.js",
+    "bytes": 5263,
+    "sha256": "5c34ce29d10bb7dd491c22420b48736e35f2ed8f5ef52f5117b846e05cb9964e"
+  },
+  {
+    "path": "dist/vendor/longwind/core/glsl.js",
+    "bytes": 491,
+    "sha256": "a54741725dac9c81972af49dc09f089f2f763bdd2fcad451ebb6f36832586136"
+  },
+  {
+    "path": "dist/vendor/longwind/core/noise.js",
+    "bytes": 8370,
+    "sha256": "1cc1483a2593cb8d4e9f322e609dfab2b469826e0dd51cab8bfa18adc3534bdc"
+  },
+  {
+    "path": "dist/vendor/longwind/core/wind.js",
+    "bytes": 7040,
+    "sha256": "ea51c7de607992740ec8839519b1c22f77379780506fc8a79da5ca6a1c323004"
+  },
+  {
+    "path": "dist/vendor/three.module.js",
+    "bytes": 1180643,
+    "sha256": "75c7cb2ce7505c53e72e0b43158b20aad7973ca884f9e12be9459c7ff5d24fbc"
+  },
+  {
+    "path": "tests/animation.test.mjs",
+    "bytes": 844,
+    "sha256": "002648dc803ee59b68fb722b9e4f07789349eb2812772440db0ea11d5e7bba15"
+  },
+  {
+    "path": "tests/combat.test.mjs",
+    "bytes": 1609,
+    "sha256": "70c67b14cb15781d997c619ae5ed3e98115f7452d33408c63453f2222b5d8b10"
+  },
+  {
+    "path": "tests/heroine-gait.test.mjs",
+    "bytes": 543,
+    "sha256": "10e456cff0bac546a436caa7c8d0f2aaa47db48162ddc6f9cda2e2e703c96f17"
+  },
+  {
+    "path": "tests/heroine.test.mjs",
+    "bytes": 903,
+    "sha256": "8e0625b06e2d91b7d02d3fa3faa386989336b7c954465e29262a06a26eb330b6"
+  },
+  {
+    "path": "tests/lifecycle.test.mjs",
+    "bytes": 1113,
+    "sha256": "9ca8b3d1269986ba4803dac1856f62ccd6a0866654b0bc2b6060e2af226fa876"
+  },
+  {
+    "path": "tests/qinggong.test.mjs",
+    "bytes": 1421,
+    "sha256": "a843c1ba00a42e7f5b2995cf308402e4d619e4a8ee97fb96c25fa44e3aa4ca24"
+  },
+  {
+    "path": "character-resources/face-v2-experiment.md",
+    "bytes": 531,
+    "sha256": "471251f23c7f0896a44829a991f34032d326ee3df0b958d0d8fa48a0bfbf4390"
+  },
+  {
+    "path": "character-resources/heroine-back.png",
+    "bytes": 367089,
+    "sha256": "71f4b27372bcfc635f84d6ea1d8fec6e4668b47bc35ed581dd37561d46e0379f"
+  },
+  {
+    "path": "character-resources/heroine-front.png",
+    "bytes": 369182,
+    "sha256": "f089a569bb47b44e819d8f9cfe493b3047c40870b7725ea653049bd851ef9770"
+  },
+  {
+    "path": "character-resources/heroine-left.png",
+    "bytes": 242294,
+    "sha256": "5fa87c6e71ad3be5388fc7ae6b25df9c2d2bd44f20e2dddf1e36de8ca5991ed2"
+  },
+  {
+    "path": "character-resources/heroine-right.png",
+    "bytes": 240342,
+    "sha256": "2661376956949a2daec2ffdb7191ec63b9aaf57b446dc920aedef70e6ee93df8"
+  },
+  {
+    "path": "character-resources/heroine-turnaround.png",
+    "bytes": 1541510,
+    "sha256": "894c098af99b03b5af3e09faf8661b287f0280b62f366af558bfd93bb79f0c74"
+  },
+  {
+    "path": "character-resources/models-manifest.json",
+    "bytes": 44470,
+    "sha256": "901069b911660422f577f505b52c87d3c2ca62cf6ff8c1cb4aff3f4422f50777"
+  },
+  {
+    "path": "character-resources/source/heroine-reference.png",
+    "bytes": 1135844,
+    "sha256": "1e691cb2716795a6b6708b745a4f5c6cf0b8712df5034fdacbf7c37c2cb350c2"
+  },
+  {
+    "path": "character-resources/workflows/reference-run.json",
+    "bytes": 93,
+    "sha256": "fe74d0417232dc0a287e42a829de721183c475371a77dee7e38e3942d3a60b6e"
+  },
+  {
+    "path": "character-resources/workflows/shape-run.json",
+    "bytes": 85,
+    "sha256": "646c06bc255c179eb4b7bf15b63cbf4fc7e68177d27a750b593185b6cfa9b6ef"
+  },
+  {
+    "path": "character-resources/workflows/云栖女主_01_四视图资源整理.api.json",
+    "bytes": 2011,
+    "sha256": "fbe59258d2aeaebba59e2ca334f70ac7831aee88a995b798cee29b9e2e1b8e82"
+  },
+  {
+    "path": "character-resources/workflows/云栖女主_01_四视图资源整理.json",
+    "bytes": 8391,
+    "sha256": "8f194359b857dde99bdcb253a32878fec67c48ee8e9b347da85f0cf24fb0d0ad"
+  },
+  {
+    "path": "character-resources/workflows/云栖女主_02_参考图编辑_back.api.json",
+    "bytes": 3745,
+    "sha256": "7951e5fa7a7b2501d4720c0cc691cf45fb6408c389a7945a7969605d6793fde1"
+  },
+  {
+    "path": "character-resources/workflows/云栖女主_02_参考图编辑_back.json",
+    "bytes": 14194,
+    "sha256": "024ee8889701c409b43d1233004c3c6683a1529eac50ddd25e77912d91ee410a"
+  },
+  {
+    "path": "character-resources/workflows/云栖女主_02_参考图编辑_front.api.json",
+    "bytes": 3752,
+    "sha256": "2bceeb33663bc533dd598f859eb28032cabc2b8054d8ab508d34bb3912d900e7"
+  },
+  {
+    "path": "character-resources/workflows/云栖女主_02_参考图编辑_front.json",
+    "bytes": 14202,
+    "sha256": "72f84a34aee08032f94b44d07a0f42e978ae8441ae84d2d0af494c3489f3ec4e"
+  },
+  {
+    "path": "character-resources/workflows/云栖女主_02_参考图编辑_left.api.json",
+    "bytes": 3741,
+    "sha256": "8f96f39d2d33788806a7560c93ed7f90ae3e9ab8785716b6920f8f1710513b47"
+  },
+  {
+    "path": "character-resources/workflows/云栖女主_02_参考图编辑_left.json",
+    "bytes": 14190,
+    "sha256": "16fd08284a8c1667150a1ab0a883d5fab26e8d1713b173f9f2657ed0e6d45e7e"
+  },
+  {
+    "path": "character-resources/workflows/云栖女主_02_参考图编辑_right.api.json",
+    "bytes": 3744,
+    "sha256": "48bd8367c312985d06ec84aa68043dbb8009790b773ceae616e7af4ff6e3994e"
+  },
+  {
+    "path": "character-resources/workflows/云栖女主_02_参考图编辑_right.json",
+    "bytes": 14194,
+    "sha256": "9ffc4a7847847585fb93288b9af81f401f3fb5a13cf43629ff6cdcd1c342bd1d"
+  },
+  {
+    "path": "character-resources/workflows/云栖女主_03_图生3D白模.api.json",
+    "bytes": 2028,
+    "sha256": "2e7c23152ab404b08aa98e8bbaf9d4fdaeb0140d4e40ce2110f8b5a5095f4be7"
+  },
+  {
+    "path": "character-resources/workflows/云栖女主_03_图生3D白模.json",
+    "bytes": 8829,
+    "sha256": "8382fe0b6137fde4c7eb6458324cacab8405e77f5ce68e4d8790524564f944b7"
+  },
+  {
+    "path": "tools/build_character_workflows.py",
+    "bytes": 6660,
+    "sha256": "be012ae15d3cc8d40bc5daf5bcedebfbb28e422ab5d34d206d677103502c3687"
+  },
+  {
+    "path": "tools/download_character_models.py",
+    "bytes": 1128,
+    "sha256": "765eb913509d6c3d1b6e8bd4e724856d5a6c76160b58ee2ca89e4f00295d694e"
+  },
+  {
+    "path": "tools/download_character_models_ranges.py",
+    "bytes": 3786,
+    "sha256": "a0a03ebcf1fd1b8e922bdbc89af3aea585b504c76cb3d4ef02d295b09825af64"
+  },
+  {
+    "path": "docs/archive/main-v1.js",
+    "bytes": 16387,
+    "sha256": "a97e16a4502e64e2c544faa330e564e16f880baabedb1de3734b5b8413c06053"
+  },
+  {
+    "path": "docs/archive/scene-v1.js",
+    "bytes": 13726,
+    "sha256": "2cc49a716e8238174b7717df085aaafc84b21ca70dfc916571cc53f8ab5cff32"
+  },
+  {
+    "path": "docs/superpowers/plans/2026-11-06-heroine-ink.md",
+    "bytes": 666,
+    "sha256": "e919ebd65103777ece414a1f75e282650a1b7e41e5280daa00237494393ad200"
+  },
+  {
+    "path": "docs/superpowers/plans/2026-11-06-ink-village.md",
+    "bytes": 1486,
+    "sha256": "360af161037b3755a6b9c2ab0345384dcea143d2dff04777f45d2ea722c45320"
+  },
+  {
+    "path": "docs/superpowers/specs/2026-11-06-combat-art-direction.md",
+    "bytes": 2062,
+    "sha256": "1418eaeb63824fd85b47cd0d92a17f79d66f7323ef1a2ae3b8543bb025240b8b"
+  },
+  {
+    "path": "docs/superpowers/specs/2026-11-06-heroine-ink-design.md",
+    "bytes": 1063,
+    "sha256": "7379c32d89d3dcd8d22b52f54fa5dd77a3cb12547100d69ba9b561cb75bf30e6"
+  },
+  {
+    "path": "docs/superpowers/specs/2026-11-06-ink-village-design.md",
+    "bytes": 857,
+    "sha256": "60f010fd8f1afd7eedf62fd9cf55bd86520dcf9d4f799f1d9c15ab4b8845dca8"
+  },
+  {
+    "path": "README.md",
+    "bytes": 2502,
+    "sha256": "b813f2d2c2c8fc931f2af889770494054bb234fd9941c92b20d0f2365ebec3df"
+  },
+  {
+    "path": "agent.md",
+    "bytes": 10910,
+    "sha256": "14b58d737bb53d3f4032347ff8cf8dfa728dd947d3b049de3832d226c2bfa078"
+  },
+  {
+    "path": "AGENTS.md",
+    "bytes": 512,
+    "sha256": "85a5e53c535187810f4900c3b6857f9d0054c952e907b599f3a7756a2230bbdf"
+  },
+  {
+    "path": ".gitignore",
+    "bytes": 55,
+    "sha256": "b03cbd17f58d468b8556a961f752e9fc9f42bc00f5860276189d46dcf258d8e2"
+  },
+  {
+    "path": "start.command",
+    "bytes": 476,
+    "sha256": "4c9dc539cb6235879d2cdd59cdd6421124cc0d1de4b7918b88be0338dd96d691"
+  },
+  {
+    "path": "打包说明.txt",
+    "bytes": 2071,
+    "sha256": "e45c523d97e3d1a50fa6f6b4757f68bea19e454e8ef143d1013da1067dff5d59"
+  },
+  {
+    "path": ".openai/hosting.json",
+    "bytes": 106,
+    "sha256": "0db2e09bc146a94b24fa87f8d72b247a1e185cdeabb5fd04978fb8982b36e1ef"
+  }
+]

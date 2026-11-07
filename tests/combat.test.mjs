@@ -1,0 +1,10 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {createState, damageEnemy, hurtPlayer, tickState, canRingBell, resetState} from '../dist/combat.mjs';
+test('enemy defeat scores exactly once',()=>{let s=createState();s.enemies=[{id:1,hp:30}];damageEnemy(s,1,40);damageEnemy(s,1,40);assert.equal(s.kills,1)});
+test('infinite replacement remains capped even after chapter complete',()=>{let s=createState();s.started=true;s.quest=3;for(let i=0;i<200;i++){tickState(s,3);assert.ok(s.enemies.filter(e=>e.hp>0).length<=6);for(const e of [...s.enemies])damageEnemy(s,e.id,999)}assert.ok(s.kills>100)});
+test('dodge and hit invulnerability prevent repeated damage',()=>{let s=createState();s.dodge=0.4;hurtPlayer(s,15);assert.equal(s.hp,100);s.dodge=0;hurtPlayer(s,15);hurtPlayer(s,15);assert.equal(s.hp,85)});
+test('bell requires accepted quest and five defeats',()=>{let s=createState();s.kills=5;assert.equal(canRingBell(s),false);s.quest=1;assert.equal(canRingBell(s),true)});
+test('reset restores health and removes old enemies',()=>{let s=createState();s.hp=0;s.kills=50;s.quest=3;s.enemies=[{hp:10}];resetState(s);assert.equal(s.hp,100);assert.equal(s.kills,0);assert.equal(s.enemies.length,0)});
+import {castUltimate} from '../dist/combat.mjs';
+test('ultimate has a cooldown and is unavailable while dead',()=>{const s=createState();s.started=true;assert.equal(castUltimate(s),true);assert.equal(castUltimate(s),false);tickState(s,3);tickState(s,3);tickState(s,3);tickState(s,3);assert.equal(castUltimate(s),true);s.dead=true;s.ultimateCd=0;assert.equal(castUltimate(s),false)});

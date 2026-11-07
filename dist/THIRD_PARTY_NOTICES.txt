@@ -1,0 +1,47 @@
+BoxCollider adaptation based on Video2Game and its Sketchbook-derived browser game code.
+Copyright (c) 2024 video2game
+Copyright (c) 2020 swift502
+
+Three.js
+Copyright © 2010-2022 three.js authors
+
+Cannon.js
+Copyright (c) 2015 cannon.js Authors
+
+MIT License (applicable to the above components):
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+Long Wind procedural character, IK, cloth and authored animation code:
+Copyright (c) 2026 jbang2004
+MIT license retained in vendor/longwind/LICENSE.
+Upstream: https://github.com/jbang2004/long-wind
+Commit: 9390889b7b293c9f983dca7e1b1ef4e629274009
+No restricted Long Wind GLB character models or Mixamo motion pack included.
+
+Qingheng adapted head and hair:
+Copyright (c) 2022 pixiv Inc.
+Original: official VRM1_Constraint_Twist_Sample v1.0.1.
+VRM Public License 1.0 (separate from the MIT code licenses above).
+Full license: assets/characters/VRM-Public-License-1.0-en.pdf
+Original permissions, pinned source and changes: assets/characters/NOTICE.txt
+The model explicitly permits modification and redistribution.
+
+GLTFLoader.js is from Three.js r140, MIT, with only its import path adapted.
+Source: https://github.com/mrdoob/three.js/blob/r140/examples/jsm/loaders/GLTFLoader.js
+
+ceramic_roof_01 diffuse texture: Poly Haven, CC0.
+Source copy: https://github.com/jbang2004/long-wind/tree/main/public/assets/ph/textures/ceramic_roof_01

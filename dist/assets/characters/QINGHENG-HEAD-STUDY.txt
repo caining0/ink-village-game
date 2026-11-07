@@ -1,0 +1,16 @@
+青蘅 Blender 头肩实验稿（最后实验版本 v2，外观已被否决，制作暂停）
+
+模型：qingheng-head-study-v2.glb
+工程：character-resources/blender/qingheng-head-v2/qingheng-head-v2.blend
+几何来源：本项目 tools/blender/build-qingheng-head-v2.py，在 Blender 5.1.2 中通过官方 Blender MCP 执行。
+本次没有导入第三方角色网格，没有使用 pixiv、Xiaohua 或 MoonCat 的人物几何。
+
+范围：头脸、眼睑/眼白/虹膜/眉唇、侧分半束长发、玉簪耳饰、简化交领头肩服装。
+状态：用户已否决外观并要求先暂停；保留作实验记录。无骨骼、蒙皮或动画，尚未接入游戏。
+GLB：18网格，198,164三角形，4,701,080字节。不是最终完整游戏角色的性能预算。
+
+Blender 实际渲染：qingheng-head-v2/front.png、three-quarter.png、side.png。
+查看页：qingheng-head.html，可旋转三维模型；灯光与部分材质表现和 Blender 渲染存在差异。
+
+技术与美术状态、构建/导出脚本及验证记录：
+docs/superpowers/plans/qingheng-blender-head-study.md

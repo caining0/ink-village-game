@@ -1,0 +1,4 @@
+import test from 'node:test';import assert from 'node:assert/strict';
+import {makeAttack,advanceAttack,samplePose} from '../dist/animation.mjs';
+test('heavy strike connects later than light and hits only once across long frames',()=>{const light=makeAttack('light',1),heavy=makeAttack('heavy');assert.ok(heavy.hitAt>light.hitAt*2);assert.equal(advanceAttack(heavy,heavy.hitAt-.01),false);assert.equal(advanceAttack(heavy,.1),true);assert.equal(advanceAttack(heavy,1),false)});
+test('three light attacks have different silhouettes and return to the same guard',()=>{const moves=[1,2,3].map(n=>makeAttack('light',n));const poses=moves.map(m=>samplePose(m,m.hitAt));assert.notDeepEqual(poses[0].arm,poses[1].arm);assert.notDeepEqual(poses[1].torso,poses[2].torso);assert.deepEqual(samplePose(moves[0],0),samplePose(moves[2],moves[2].duration))});

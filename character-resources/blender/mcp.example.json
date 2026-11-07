@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "blender-official": {
+      "command": "/Users/cnn/.local/share/blender-mcp-official/.venv/bin/blender-mcp",
+      "env": {
+        "BLENDER_PATH": "/Users/cnn/Applications/Blender.app/Contents/MacOS/Blender",
+        "BLENDER_MCP_HOST": "127.0.0.1",
+        "BLENDER_MCP_PORT": "9876"
+      },
+      "exposure": "deferred",
+      "timeout": 300,
+      "description": "Official Blender Lab MCP: inspect scenes, execute Blender Python, edit models, and render."
+    }
+  }
+}

@@ -1,0 +1,4 @@
+# 云栖 · 第一回 山门初醒
+Browser playable third-person wuxia village, using the supplied ink landscape reference: parchment mist, dark rocks, vermilion gates, straw-hat swordsman. User requested combat and endlessly respawning mobs.
+Flow: enter village, speak with elder, defeat five bandits, ring bell to finish chapter. Endless combat remains available after completion. WASD movement, mouse drag camera, J sword attack, Space dodge, E interact; touch controls. Health, healing on respawn, pause, restart and mute.
+Approach: retain Video2Game Three.js + separate render/collision geometry architecture; build original stylized scene instead of claiming NeRF reconstruction without input video. Adapt original MIT BoxCollider into browser ESM and use Cannon physics for static colliders and movable props. No server data. Self-host dependencies.
